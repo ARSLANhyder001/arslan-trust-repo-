@@ -1,0 +1,43 @@
+import type { Project } from "@shared/schema";
+
+export const customProjects: Project[] = [
+  {
+    id: 1001,
+    title: "Petaro Pump",
+    description: "A high-traffic petrol pump located on the main highway in Jamshoro, Pakistan. Fully operational and generating steady returns.",
+    location: "Jamshoro, Pakistan",
+    roi: "28.76",
+    minInvestment: 100000,
+    targetAmount: 20000000,
+    currentAmount: 20000000,
+    status: "COMPLETE",
+    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    createdAt: new Date(),
+  },
+  {
+    id: 1002,
+    title: "120 Sq. Yd. Banglow at Gulistan-e-Noor Mohammad",
+    description: "A modern 120 square yard banglow in the heart of Hyderabad, currently under construction. 70% funded, estimated ROI up to 30% on completion.",
+    location: "Gulistan-e-Noor Mohammad, Hyderabad, Pakistan",
+    roi: "30.00",
+    minInvestment: 100000,
+    targetAmount: 15000000,
+    currentAmount: 10500000,
+    status: "FUNDING",
+    imageUrl: "https://images.unsplash.com/photo-1464983953574-0892a716854b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    createdAt: new Date(),
+  },
+  {
+    id: 1003,
+    title: "150 Sq. Yd. Banglow",
+    description: "A completed 150 square yard banglow, waiting for sale. Excellent opportunity for capital appreciation.",
+    location: "Hyderabad, Pakistan",
+    roi: "--",
+    minInvestment: 100000,
+    targetAmount: 18000000,
+    currentAmount: 18000000,
+    status: "WAITING_FOR_SALE",
+    imageUrl: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    createdAt: new Date(),
+  },
+];
