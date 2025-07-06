@@ -31,3 +31,8 @@ logs/
 tmp/
 /.idea
 /.vscode
+# Ignore seed files
+server/seed.ts
+scripts/seed.ts
+# Ignore build artifacts
+dist/
